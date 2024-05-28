@@ -340,14 +340,5 @@ const storeInventory = [
     ]
 ];
 
-for (let i = 0; i < storeInventory.length; i++){
-    console.log(storeInventory[i][0]);
-    for (let j = 0; i < storeInventory.length; j++){
-        if (j < storeInventory.length){
-            console.log(storeInventory[j][1]);
-        } else{
-            console.log('Anfa');
-        }
-    }
-    console.log('----------------------------------');
-}
+
+
