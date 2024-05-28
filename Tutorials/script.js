@@ -243,3 +243,111 @@ for (let counter = 5; counter < 11; counter++){
 for (let counter = 5; counter >= 0; counter--){
     console.log(counter);
 }
+
+for (let counter = 11; counter >= 5; counter--){
+    console.log(counter);
+}
+
+//LOOPING THROUGH ARRAYS
+/**
+ * for loops are very handy for iterating over data structures. For example, we can use a for loop to perform the same operation on each element on an array. Arrays hold lists of data, like customer names or product information. Imagine we owned a store and wanted to increase the price of every product in our catalog. That could be a lot of repeating code, but by using a for loop to iterate through the array we could accomplish this task easily.
+
+To loop through each element in an array, a for loop should use the array’s .length property in its condition.
+ */
+
+const animals =['Dog', 'Cow', 'Cat', 'Lion'];
+for (let i = 0; i < animals.length; i++){
+    console.log(animals[i]);
+}
+
+const vacationSpots = ['Paris', 'Singapore', 'Texas', 'New York'];
+for (let i = 0; i < vacationSpots.length; i++){
+    console.log(`I would love to visit ${vacationSpots[i]}`);
+}
+
+
+//NESTED LOOPS
+/**
+ * When we have a loop running inside another loop, we call that a nested loop. One use for a nested for loop is to compare the elements in two arrays. For each round of the outer for loop, the inner for loop will run completely.
+ */
+
+const myArray = [6, 19, 20];
+const yourArray = [19, 81, 2];
+for (let i = 0; i < myArray.length; i++){
+    console.log(`The current value of myArray is ${myArray[i]}`);
+    for (let j = 0; j < yourArray.length; j++){
+        if (myArray === yourArray){
+            console.log(`Both arrays have the same number: ${yourArray[j]}`);
+        } else{
+            console.log(`No number matched`)
+        }
+    }
+}
+
+//Using for loops to created the multiplication times table
+for (i = 0; i <= 10; i++){
+    for(j = 0; j <= 10; j++){
+        console.log(`${i} x ${j} = ${[i] * [j]}`);
+    }
+    console.log('-------------------------------');
+};
+
+const storeInventory = [
+    [
+        'Item: Computer',
+        'Price: $500',
+        'Inventory: 25'
+    ],
+    [
+        'Item: Speakers',
+        'Price: $100',
+        'Inventory: 100'
+    ],
+    [
+        'Item: Monitors',
+        'Price: $200',
+        'Inventory: 27'
+    ],
+    [
+        'Item: Headphones',
+        'Price: $400',
+        'Inventory: 7'
+    ],
+    [
+        'Item: Printers',
+        'Price: $100',
+        'Inventory: 90'
+    ],
+    [
+        'Item: USB Cable',
+        'Price: $9',
+        'Inventory: 500'
+    ],
+    [
+        'Item: Router',
+        'Price: $350',
+        'Inventory: 23'
+    ],
+    [
+        'Item: Wireless Keyboard',
+        'Price: $20',
+        'Inventory: 55'
+    ],
+    [
+        'Item: Fans',
+        'Price: $35',
+        'Inventory: 6'
+    ]
+];
+
+for (let i = 0; i < storeInventory.length; i++){
+    console.log(storeInventory[i][0]);
+    for (let j = 0; i < storeInventory.length; j++){
+        if (j < storeInventory.length){
+            console.log(storeInventory[j][1]);
+        } else{
+            console.log('Anfa');
+        }
+    }
+    console.log('----------------------------------');
+}
