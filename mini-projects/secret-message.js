@@ -14,3 +14,15 @@ secretMessage.shift();
 secretMessage.unshift('Programming');
 secretMessage.splice(6, 5, 'know');
 console.log(secretMessage.join(' '));
+
+
+//JavScript array methods
+/**
+ * pop()
+ * push()
+ * shift()
+ * unshift
+ * slice()
+ * splice()
+ * indexof()
+ */
