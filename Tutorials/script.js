@@ -341,4 +341,79 @@ const storeInventory = [
 ];
 
 
+const bobsFollowers = ['Nathan', 'Jones', 'Peter', 'Paul'];
+const tinasFollowers = ['Nathan', 'Jones', 'Esther'];
 
+mutualFollowers = '';
+
+for (let i = 0; i <= bobsFollowers.length; i++){
+    for (let j = 0; j <= tinasFollowers.length; j++){
+        if (bobsFollowers[i] === tinasFollowers[j]){
+            mutualFollowers.push(bobsFollowers[i]);
+        }
+    }
+};
+console.log(mutualFollowers);
+
+
+//WHILE LOOPS
+let counterTwo = 1;
+while (counterTwo < 4){
+    console.log(counterTwo);
+    counterTwo++;
+}
+ //same as this for loop
+
+for (let counterTwo = 1; counterTwo < 4; counterTwo++){
+console.log(counterTwo);
+}
+
+
+const cards = ['diamond', 'spade', 'heart', 'club'];
+
+let currentCard = 'heart';
+while (currentCard !== 'spade'){
+    currentCard = cards[Math.floor(Math.random() * 4)];
+    console.log(currentCard);
+};
+
+
+
+//do...while looops
+
+/**
+ * Note that the while and do...while loops are different.! Unlike
+ * the while loop, do...while loop will run at least first once whether the
+ * or not the condition evaluates to true.
+ */
+
+let countString = '';
+let i = 0;
+
+do{
+    countString += i;
+    i++;
+} while (i < 5);
+
+console.log(countString);
+
+const firstMessage = 'I will print!';
+const secondMessage = 'I will not print!';
+
+// A do while with a stopping condition that evaluates false
+do{
+    console.log(firstMessage);
+} while (true === false);
+
+//A while loop with a stopping condition that evaluates false
+while (true === false){
+    console.log(secondMessage);
+};
+
+let cupOfSugarNeeded = 4;
+let cupsAdded = 0;
+
+do {
+    cupsAdded++
+    console.log(cupsAdded);
+} while (cupsAdded < cupOfSugarNeeded);
