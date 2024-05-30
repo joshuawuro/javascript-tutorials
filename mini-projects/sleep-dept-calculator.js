@@ -75,4 +75,3 @@ calculateSleepDept = () => {
         console.log('Error!, check your code');
     }
 };
-
