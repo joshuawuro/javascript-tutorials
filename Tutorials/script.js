@@ -446,3 +446,9 @@ for (let i = 0; i < rapperArray.length; i++){
 };
 
 console.log("If you don't know, now you know");
+
+
+
+//using map() and filter() in loops//
+
+cats =['Leopard', 'Serval', 'Tiger', 'Jaguar', 'Lion', 'Caracal'];
