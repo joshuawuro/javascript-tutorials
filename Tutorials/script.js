@@ -456,3 +456,7 @@ cats =['Leopard', 'Serval', 'Tiger', 'Jaguar', 'Lion', 'Caracal'];
 function toUpper(string){
     return string.toUpperCase();
 };
+
+const upperCats = cats.map(toUpper);
+
+console.log(upperCats);
