@@ -465,3 +465,5 @@ console.log(upperCats);
 function tolower(cat) {
      return cat.startsWith('L');
 }
+
+const filters = cats.filter(tolower);
