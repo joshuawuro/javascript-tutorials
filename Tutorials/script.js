@@ -460,3 +460,8 @@ function toUpper(string){
 const upperCats = cats.map(toUpper);
 
 console.log(upperCats);
+
+
+function tolower(cat) {
+     return cat.startsWith('L');
+}
