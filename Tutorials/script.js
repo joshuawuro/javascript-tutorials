@@ -469,3 +469,6 @@ function tolower(cat) {
 const filters = cats.filter(tolower);
 
 console.log(filters);
+
+const filtered = cats.filter(cat => cat.startsWith("L"));
+console.log(filtered);
