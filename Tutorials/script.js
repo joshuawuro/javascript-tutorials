@@ -472,3 +472,12 @@ console.log(filters);
 
 const filtered = cats.filter(cat => cat.startsWith("L"));
 console.log(filtered);
+
+
+
+
+const helloWorld = function() {
+    return '';
+};
+
+module.exports = helloWorld;
