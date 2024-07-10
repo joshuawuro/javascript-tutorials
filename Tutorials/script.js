@@ -567,3 +567,21 @@ function sum(num1, num2) {
 }
 
 
+console.log(sum(100, 56));
+
+let student = true;
+console.log(!student)
+
+
+let user = false;
+
+if (!user){
+    console.log('You must be logged in to continue');
+} else {
+    console.log('you\'re welcome');
+}
+
+const speak = function(names = 'goddey', time = 'morning') {
+    console.log(`Good ${time} ${names}`);
+};
+
