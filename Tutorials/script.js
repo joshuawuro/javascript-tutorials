@@ -555,3 +555,15 @@ if (number > 0){
 }
 
 
+//LOOPING THROUGH NUMBERS
+
+for (let i = 1; i <= 10; i++ ){
+    console.log(i);
+}
+
+
+function sum(num1, num2) {
+    return num1 + num2;
+}
+
+
