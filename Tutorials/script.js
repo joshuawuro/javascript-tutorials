@@ -515,3 +515,11 @@ console.log(typeof(address));
 console.log(typeof(hobbies));
 console.log(typeof(balance));
 console.log(typeof(undefinedVariable));
+
+
+console.log(`You are ${age} years old`);
+console.log(`Are you absent today? true/false: ${isStudent}`);
+console.log(`You stay in ${city} which is the capital city of ${Country}`)
+console.log(`Your hobbies are ${hobbies}`)
+console.log(`Your account balance is ${null}`);
+
