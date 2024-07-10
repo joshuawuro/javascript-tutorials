@@ -488,3 +488,16 @@ describe('Hello World', function()) {
         expect(helloWorld().toEqual('Hello, World!');
     })
 }
+
+let name = 'joshua';
+let age = 12;
+let isStudent = true;
+let address = [
+    city ='Accra',
+    Country = 'Ghana'
+];
+
+let hobbies = ['reading', ' eating', ' sleeping'];
+let balance = null;
+let undefinedVariable;
+
