@@ -501,3 +501,9 @@ let hobbies = ['reading', ' eating', ' sleeping'];
 let balance = null;
 let undefinedVariable;
 
+
+
+let hobbies = ['reading', ' eating', ' sleeping'];
+let balance = null;
+let undefinedVariable;
+
