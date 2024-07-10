@@ -523,3 +523,15 @@ console.log(`You stay in ${city} which is the capital city of ${Country}`)
 console.log(`Your hobbies are ${hobbies}`)
 console.log(`Your account balance is ${null}`);
 
+// steps
+// let userName;
+// let userAge;
+// let year;
+// let yearOfBirth;
+
+// userName = prompt('what is your name?');
+// userAge = prompt('How old are you?');
+// year = new Date().getFullYear();
+// yearOfBirth = year - userAge
+// alert(`Your name is ${userName} and your calculated year of birth is ${yearOfBirth}`);
+
