@@ -535,3 +535,23 @@ console.log(`Your account balance is ${null}`);
 // yearOfBirth = year - userAge
 // alert(`Your name is ${userName} and your calculated year of birth is ${yearOfBirth}`);
 
+const greet = function() {
+    return "good day"
+};
+
+const greeting = () => "good day";
+
+
+// CONDITIONAL LOGIC PRACTICE
+
+let number = 55;
+
+if (number > 0){
+    console.log(`${number} is positive`);
+} else if (number < 0 ){
+    console.log(`${number} is negative`)
+} else {
+    console.log(`${number} is zero`)
+}
+
+
