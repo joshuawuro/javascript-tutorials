@@ -507,3 +507,11 @@ let hobbies = ['reading', ' eating', ' sleeping'];
 let balance = null;
 let undefinedVariable;
 
+console.log(`Your name is ${name}`);
+console.log(typeof(name));
+console.log(typeof(age));
+console.log(typeof(isStudent));
+console.log(typeof(address));
+console.log(typeof(hobbies));
+console.log(typeof(balance));
+console.log(typeof(undefinedVariable));
