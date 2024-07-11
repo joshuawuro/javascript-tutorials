@@ -598,3 +598,7 @@ button.addEventListener('click', function(){
 
 const listItems = document.getElementsByClassName('hover-item');
 console.log(listItems);
+
+listItems.addEventListener('mouseover', function(hover){
+    hover.target.backgroundColor = 'yellow';
+});
