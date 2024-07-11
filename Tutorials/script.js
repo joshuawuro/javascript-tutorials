@@ -480,32 +480,32 @@ const helloWorld = function() {
     return '';
 };
 
-module.exports = helloWorld;
+// module.exports = helloWorld;
 
-const helloWorld = require('./helloWorld');
-describe('Hello World', function()) {
-    test('says "Hello World!"', function() {
-        expect(helloWorld().toEqual('Hello, World!');
-    })
-}
+// const helloWorld = require('./helloWorld');
+// describe('Hello World', function(){
+//     test('says "Hello World!"', function() {
+//         expect(helloWorld().toEqual('Hello, World!');
+//     })
+// }
 
-let name = 'joshua';
-let age = 12;
-let isStudent = true;
-let address = [
-    city ='Accra',
-    Country = 'Ghana'
-];
+// let naem = 'joshua';
+// let age = 12;
+// let isStudent = true;
+// let address = [
+//     city ='Accra',
+//     Country = 'Ghana'
+// ];
 
-let hobbies = ['reading', ' eating', ' sleeping'];
-let balance = null;
-let undefinedVariable;
+// let hobbies = ['reading', ' eating', ' sleeping'];
+// let balance = null;
+// let undefinedVariable;
 
 
 
-let hobbies = ['reading', ' eating', ' sleeping'];
-let balance = null;
-let undefinedVariable;
+let hobbie = ['reading', ' eating', ' sleeping'];
+let balances = null;
+let undefinedVariables;
 
 console.log(`Your name is ${name}`);
 console.log(typeof(name));
@@ -578,10 +578,20 @@ let user = false;
 if (!user){
     console.log('You must be logged in to continue');
 } else {
-    console.log('you\'re welcome');
+    console.log("you\'re welcome");
 }
 
 const speak = function(names = 'goddey', time = 'morning') {
     console.log(`Good ${time} ${names}`);
 };
 
+const greeting = document.getElementById("greeting");
+
+greeting.textContent = "Hello, DOM!";
+// console.log(greeting);
+
+const button = document.getElementById('clickButton');
+
+button.addEventListener('click', function(){
+    button.textContent = 'clicked';
+});
