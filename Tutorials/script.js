@@ -595,3 +595,6 @@ const button = document.getElementById('clickButton');
 button.addEventListener('click', function(){
     button.textContent = 'clicked';
 });
+
+const listItems = document.getElementsByClassName('hover-item');
+console.log(listItems);
